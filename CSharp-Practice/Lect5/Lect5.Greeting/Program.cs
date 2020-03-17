@@ -20,6 +20,10 @@ namespace Lect5.Greeting
             {
                 Console.WriteLine("Good evening, guys");
             }
+            else
+            {
+                Console.WriteLine("Good night, guys!!");
+            }
         }
     }
 }
