@@ -11,7 +11,7 @@ namespace Lect5.LetterA
             str = Console.ReadLine();
             for (int i = 0; i < str.Length; i++)
             {
-                if (str[i] == 'a' || str[i]=='A')
+                if (str[i] == 'a')
                 {
                     count++;
                 }
