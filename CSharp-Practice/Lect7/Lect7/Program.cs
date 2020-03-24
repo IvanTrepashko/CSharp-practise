@@ -6,10 +6,15 @@ namespace Lect7
     {
         static void Main(string[] args)
         {
+            task_1();
             task_2();
             task_3();
         }
 
+        static void task_1()
+        {
+            Array array = Array.Empty<Array>();
+        }
         static  void task_2()
         {
             object[] arr = new object[3];
