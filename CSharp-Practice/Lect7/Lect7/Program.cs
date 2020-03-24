@@ -8,6 +8,7 @@ namespace Lect7
         {
             task_1();
             task_2();
+            Console.WriteLine();
             task_3();
         }
 
