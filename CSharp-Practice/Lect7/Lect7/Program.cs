@@ -7,6 +7,7 @@ namespace Lect7
         static void Main(string[] args)
         {
             task_2();
+            task_3();
         }
 
         static  void task_2()
@@ -21,6 +22,25 @@ namespace Lect7
             arr[2] += ", guys";
             foreach (object item in arr)
                 Console.WriteLine(item);
+        }
+        static void task_3()
+        {
+            int[] arr = new int[13];
+            Random rnd = new Random();
+            for (int i = 0; i < arr.Length; i++)
+                arr[i] = rnd.Next(30);
+            int max = arr[0];
+            foreach (int item in arr)
+            {
+                if (item > max)
+                    max = item;
+            }
+            foreach (int item in arr)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine(max);
         }
     }
 }
