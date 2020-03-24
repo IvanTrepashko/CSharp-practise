@@ -6,17 +6,17 @@ namespace Lect7
     {
         static void Main(string[] args)
         {
-            task_1();
-            task_2();
+            Task_1();
+            Task_2();
             Console.WriteLine();
-            task_3();
+            Task_3();
         }
 
-        static void task_1()
+        static void Task_1()
         {
             Array array = Array.Empty<Array>();
         }
-        static  void task_2()
+        static void Task_2()
         {
             object[] arr = new object[3];
             arr[0] = 23;
@@ -29,7 +29,7 @@ namespace Lect7
             foreach (object item in arr)
                 Console.WriteLine(item);
         }
-        static void task_3()
+        static void Task_3()
         {
             int[] arr = new int[13];
             Random rnd = new Random();
