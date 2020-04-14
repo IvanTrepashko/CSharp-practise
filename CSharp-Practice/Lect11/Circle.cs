@@ -14,7 +14,7 @@ namespace Lect11
 
         public override void ShowInformation()
         {
-            Console.WriteLine($"This is Circle. CLR Type is {this.GetType()}. Square is {Square}.");
+            Console.WriteLine($"This is Circle. CLR Type is {this.GetType()}. Square is {Square:F2}.");
         }
 
         public Circle()
