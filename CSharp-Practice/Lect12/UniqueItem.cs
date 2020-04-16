@@ -6,7 +6,7 @@ namespace Lect12
 {
     class UniqueItem
     {
-        public static int TotalId { get; set; } = 0;
+        private static int TotalId = 0;
         public int Id { get; set; }
         public UniqueItem()
         {
