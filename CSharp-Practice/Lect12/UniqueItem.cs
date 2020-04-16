@@ -6,15 +6,15 @@ namespace Lect12
 {
     class UniqueItem
     {
-        private static int TotalId = 0;
+        private static int CurrentID = 0;
         public int Id { get; set; }
         public UniqueItem()
         {
-            Id = ++TotalId;
+            Id = ++CurrentID;
         }
-        public static void SetStartID(int x)
+        public static void SetCurrentID(int x)
         {
-            TotalId = x;
+            CurrentID = x;
         }
     }
 }
